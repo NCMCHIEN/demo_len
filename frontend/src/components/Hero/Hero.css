@@ -1,0 +1,72 @@
+.hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  width: 100%; /* Đủ lớn để chứa tất cả các hình ảnh */
+}
+.slide-show {
+  width: 85%;
+  overflow: hidden;
+  position: relative;
+}
+.list-images {
+  display: flex;
+  transition: 0.5s;
+  height: 578px;
+}
+
+.list-images img {
+  margin: auto;
+  height: auto; /* Chiều cao tự động tính toán */
+}
+
+.btn:hover {
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  font-size: 40px;
+  color: #f78f00;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  right: 0;
+}
+
+.index-images {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  left: 50%;
+  /* can giua */
+  transform: translateX(-50%);
+}
+.index-item {
+  border: 2px solid #f78f00;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #f78f00;
+}
+.section-bg {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+}
+.details {
+  width: 270px;
+  height: 225px;
+  padding: 10px;
+  margin: 10px 40px 50px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
