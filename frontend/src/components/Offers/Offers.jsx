@@ -1,6 +1,5 @@
 import React from "react";
 import "./Offers.css";
-import exclusive_image from "../Assets/exclusive_image.png";
 
 export const Offers = () => {
   return (
@@ -12,7 +11,9 @@ export const Offers = () => {
         <button>Kiểm tra ngay</button>
       </div>
       <div className="offers-right">
-        <img src={exclusive_image} alt="" />
+        <h1>Gỉảm giá</h1>
+        <h1>Cho lần đầu mua</h1>
+        <h1>Sản phẩm</h1>
       </div>
     </div>
   );

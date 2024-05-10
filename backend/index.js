@@ -202,9 +202,9 @@ app.get("/newcollection", async (req, res) => {
 //tao endpoint cho popular women
 app.get("/popularihoathu", async (req, res) => {
   let products = await Product.find({ category: "hoathu" });
-  let popular_in_women = products.slice(0, 4);
+  let popular_in_hoathu = products.slice(0, 4);
   console.log("popular in hoathu fetched");
-  res.send(popular_in_women);
+  res.send(popular_in_hoathu);
 });
 
 //tao middleware de fetch user

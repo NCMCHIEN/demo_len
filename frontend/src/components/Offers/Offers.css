@@ -1,6 +1,6 @@
 .offers {
   width: 85%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   margin: auto;
   padding: 0px 140px;
@@ -36,9 +36,14 @@
   cursor: pointer;
 }
 .offers-right {
+  margin-left: 50px;
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+.offers-right h1 {
+  color: #171717;
+  font-size: 80px;
+  font-weight: 600;
 }

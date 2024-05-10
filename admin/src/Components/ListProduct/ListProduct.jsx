@@ -34,7 +34,7 @@ const ListProduct = () => {
         <p>Sản phẩm</p>
         <p>Tên sản phẩm</p>
         <p>Giá cũ</p>
-        <p>Gía mới</p>
+        <p>Giá mới</p>
         <p>Loại hàng</p>
         <p>Xóa</p>
       </div>
